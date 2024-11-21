@@ -1,0 +1,17 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>formulario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <form [formGroup]="formulario" (ngSubmit)="add()">
+    <ion-input formControlName="nombre" label="Nombre" type="text" labelPlacement="floating" fill="solid" placeholder="Ingresa nombre"></ion-input>
+    <ion-input formControlName="apellido" label="Apellido" type="text" labelPlacement="floating" fill="solid" placeholder="Ingresa apellido"></ion-input>
+
+    <ion-button type="submit">Registrar</ion-button>
+    
+  </form>
+
+</ion-content>

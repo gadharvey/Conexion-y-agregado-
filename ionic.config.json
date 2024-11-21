@@ -1,0 +1,7 @@
+{
+  "name": "probandofunc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
